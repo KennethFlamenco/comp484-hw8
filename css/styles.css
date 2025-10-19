@@ -9,6 +9,7 @@
 ------------------------------------*/
 html {
     box-sizing: border-box;
+    background: white;
 }
 
 *,
@@ -18,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #535C91;
+    background: #535C91;
     font-family: "Roboto", sans-serif;
     font-size: 100%;
 
@@ -83,7 +84,14 @@ nav {
     border-radius: 50%;
 }
 
+.image-bg {
+    background: url(../images/mulholland.jpg);
 
+}
+
+.alpha-bg {
+    background: rgba(93, 139, 163, 0.5);
+}
 
 
 
