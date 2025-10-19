@@ -1,0 +1,101 @@
+/* Color Palette
+#070F2B - color 1
+#1B1A55 - color 2
+#535C91 - color 3
+#9290C3 - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #535C91;
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    /* centers it horizontally */
+    padding: 50px;
+    overflow: hidden;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.profile-img {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/* Header & Footer 
+------------------------------------*/
+h1 {
+    font: "Roboto", sans-serif;
+    color: #070F2B;
+    margin: 0;
+
+}
+
+h2 {
+    font: 1.6em "Roboto", sans-serif;
+    color: #1B1A55;
+    margin: 0;
+}
+
+h3 {
+    font: "Roboto", sans-serif;
+    color: #535C91;
+}
+
+footer {
+    border-top: 1px solid gray;
+    text-align: center;
+    font-size: .8em;
+    line-height: 0.3em;
+    margin-top: 1em;
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+
+
+
+/* Education
+------------------------------------*/
