@@ -24,6 +24,32 @@ body {
 
 }
 
+nav {
+    position: fixed;
+    background: white;
+    margin-bottom: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.display {
+    text-align: center;
+
+}
+
+.display a {
+    padding: 10px;
+    display: inline-block;
+}
+
 .column-narrow {
     width: 30%;
     float: left;

@@ -8,15 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/adb53d9658.js" crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <!-- // Intro -->
     <header>
+        <nav class="display">
+            <a href="#About">Home</a>
+            <a href="#Job">Job</a>
+            <a href="#Education">Education</a>
+            <a href="#Contact">Contact</a>
+        </nav>
         <div class="content-wrap">
             <div class="column-wide">
-                <img src="images/kennethpic.jpg" alt="Kenneth Flamenco" class="profile-img" class="column-narrow">
+                <img src="images/kennethpic.jpg" alt="Kenneth Flamenco" class="profile-img" class="column-narrow"
+                    id="About">
                 <h1>Kenneth Flamenco</h1>
                 <h2>Software Engineer</h2>
                 <p>I am Kenneth Flamenco, 22 years old, and this is my resume website. This website will show you what I
@@ -30,8 +38,8 @@
     <main>
         <!-- // Work Experience -->
         <section>
-            <div class="content-wrap">
-                <h2>Work Experience</h2>
+            <div class="content-wrap" id="Job">
+                <h2><i class="fa-solid fa-computer"></i>Work Experience</h2>
                 <div class="column-narrow">
                     <!-- Job Details: copy this whole block to add more jobs -->
                     <h3>Game Developer</h3>
@@ -67,8 +75,8 @@
 
         <!-- // Education -->
         <section>
-            <div class="content-wrap">
-                <h2>Education</h2>
+            <div class="content-wrap" id="Education">
+                <h2><i class="fa-solid fa-book"></i>Education</h2>
                 <div class="column-narrow">
                     <!-- School details: copy this whole block to add more schools. -->
                     <h3>CSUN, 2021-2026</h3>
@@ -96,7 +104,7 @@
     <!-- // Footer & contact info -->
     <footer>
         <div class="content-wrap">
-            <h2>Let's Keep in Touch!</h2>
+            <h2 id="Contact">Let's Keep in Touch!</h2>
             <div class="contact-info">
                 <!-- Social media and contact links. Add or remove any networks. -->
                 <div>
