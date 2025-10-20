@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background: #535C91;
+    background: #9290c3;
     font-family: "Roboto", sans-serif;
     font-size: 100%;
 
@@ -33,6 +33,7 @@ nav {
     left: 0;
     width: 100%;
 }
+
 
 .nav ul {
     margin: 0;
